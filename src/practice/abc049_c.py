@@ -1,11 +1,7 @@
 S = input()
 
-S = S.replace('dreamere', 'e')
-S = S.replace('dreamerd', 'd')
-S = S.replace('dream', '')
-S = S.replace('eraser', '')
-S = S.replace('erase', '')
+wordList = ["dream", "dreamer", "erase", "eraser", ""]
+splitS = S.replace('d', ',d').replace('erase', ',erase').split(',')
+incorrectList = list(filter(lambda str: not str in wordList, splitS))
 
-output = "YES" if len(S) == 0 else "NO"
-
-print(output)
+print("YES" if len(incorrectList) == 0 else "NO")
