@@ -13,3 +13,6 @@ while a*a < N:
     a += 1
 
 print(count)
+
+# for a in range(1, N):
+#     count += (N-1) // a
