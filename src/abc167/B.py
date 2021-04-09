@@ -7,6 +7,8 @@ for i in range(k):
     aset = set(list(map(int, input().split())))
     havings |= aset
 
+# print(n - len(havings))
+
 ans = 0
 for i in range(1, n+1):
     if not i in havings:
