@@ -6,6 +6,7 @@ if math.ceil(a / d) >= math.ceil(c / b):
 else:
     print("No")
 
+# print("Yes" if math.ceil(a / d) >= math.ceil(c / b) else "No")
 
 # t = True
 # while a > 0 and c > 0:
