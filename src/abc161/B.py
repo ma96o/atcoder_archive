@@ -15,3 +15,9 @@ print("Yes" if len(selects) >= m else "No")
 #         print("Yes")
 #         exit()
 # print("No")
+
+# a = sorted(list(map(int, input().split())), reverse=-1)
+# if 4*m*a[m-1] < sum(a):
+#     print("No")
+# else:
+#     print("Yes")
