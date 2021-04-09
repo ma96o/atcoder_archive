@@ -29,13 +29,16 @@ for k in range(K):
     elif c in activePlate:
         activePlate.append(d)
     else:
-        countC = cList[k:].count(c)
-        countD = dList[k:].count(d)
-        if countC > countD:
-            activePlate.append(d)
-        else:
-            activePlate.append(c)
-            p
+        activePlates[p] = activePlate.append(c)
+        activePlates[p+1] = activePlate.append(d)
+        p += 1
+        # countC = cList[k:].count(c)
+        # countD = dList[k:].count(d)
+        # if countC > countD:
+        #     activePlate.append(d)
+        # else:
+        #     activePlate.append(c)
+        p
 
 sumM = 0
 

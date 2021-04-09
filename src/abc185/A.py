@@ -1,3 +1,3 @@
-aList = list(map(input().split()))
+aList = list(map(int, input().split()))
 
 print(min(aList))
