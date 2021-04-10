@@ -11,4 +11,4 @@ else:
 print(ans)
 
 
-print((n // (a+b))*a + min(l, a))
+# print((n // (a+b))*a + min(l, a))
