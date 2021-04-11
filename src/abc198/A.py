@@ -6,9 +6,11 @@ if n < 2:
     exit()
 
 cnt = 1
-for a in range(1, n-2):
+for a in range(1, n-1):
     b = n-a
     if b >= 1:
         cnt += 1
 
 print(cnt)
+
+# print(n-1)
