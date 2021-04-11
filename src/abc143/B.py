@@ -14,4 +14,4 @@ print(sum)
 # for i in d_paires:
 #     sum += i[0]*i[1]
 
-print(sum(d*c for d, c in zip(dlist[1:], itertools.accumulate(dlist))))
+# print(sum(d*c for d, c in zip(dlist[1:], itertools.accumulate(dlist))))
