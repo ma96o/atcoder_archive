@@ -27,3 +27,10 @@ for i in range(ln):
         exit()
 
 print("No")
+
+# for i in range(10):
+#     t = '0'*i + S
+#     if t == t[::-1]:
+#         print("Yes")
+#         exit()
+# print("No")
