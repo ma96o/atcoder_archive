@@ -9,3 +9,9 @@ for i in range(n):
         sum += x*y
 
 print(sum)
+
+# d_paires = itertools.combinations(dlist, 2)
+# for i in d_paires:
+#     sum += i[0]*i[1]
+
+print(sum(d*c for d, c in zip(dlist[1:], itertools.accumulate(dlist))))
