@@ -14,3 +14,9 @@ for i in range(len(bhs)):
         cnt += 1
 
 print(cnt)
+
+# for i in range(ls // 2):
+#     if s[i] != s[ls-1-i]:
+#         cnt += 1
+
+# print(sum(i != j for i, j in zip(s, s[::-1])) // 2)
