@@ -6,3 +6,5 @@ for a in alist:
     sum += 1/a
 
 print(1/sum)
+
+# print(1/sum([1/int(n) for n in input().split()]))
