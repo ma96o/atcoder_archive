@@ -15,3 +15,6 @@ for _ in range(k):
     u_num -= 1
 
 print(*sorted(ans))
+
+
+# print(*range(x-k+1, x+k))
