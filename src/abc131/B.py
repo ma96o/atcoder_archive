@@ -3,6 +3,10 @@ tastes = list(abs(l+i) for i in range(n))
 target_index = tastes.index(min(tastes))
 print(l*(n-1) + n*(2+(n-1))//2 - (target_index + 1) - (n-1))
 
+# taste_li = [l+i for i in range(n)]
+# taste = sum(taste_li)
+# print(taste - min(taste_li, key=abs))
+
 # tastes = []
 # eat_i = 0
 # target = abs(n+l-1)
