@@ -9,3 +9,7 @@ for i in range(n):
 
 
 print("YES" if cnt <= 2 else "NO")
+
+# for i in range(n):
+#     if plist[i] != i+1:
+#         cnt += 1
