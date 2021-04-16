@@ -46,3 +46,12 @@ print(min(n, 9)+max(min(n-99, 900), 0)+max(min(n-9999, 90000), 0))
 #     ans = 9 + 900 + 90000
 
 # print(ans)
+
+# n = int(input())
+# a = 0
+# for i in range(n):
+#     if len(str(i+1)) % 2 == 1:
+#         a += 1
+# print(a)
+
+# print(sum(len(str(i)) % 2 != 0 for i in range(1, int(input())+1)))
