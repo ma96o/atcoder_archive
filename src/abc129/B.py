@@ -16,4 +16,4 @@ for t in range(n):
 
 print(ans)
 
-print(min(abs(sum(w[:i])-sum(w[i:]))for i in range(1, n)))
+# print(min(abs(sum(w[:i])-sum(w[i:]))for i in range(1, n)))
