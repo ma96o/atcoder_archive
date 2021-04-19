@@ -9,3 +9,6 @@ for i in range(n):
         ans += 1
 
 print(ans)
+
+# a = [[int(x) for x in input().split()] for _ in range(n)]
+# print(sum(1 for a in a if sum(a*b for a, b in zip(a, blist)) > -c))
