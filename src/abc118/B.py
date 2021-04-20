@@ -4,6 +4,8 @@ targets = set(range(1, m+1))
 for i in range(n):
     inputs = list(map(int, input().split()))
     targets = set(inputs[1:]) & targets
+    # a = [*map(int, input().split())][1:]
+    # targets &= set(a)
 
 print(len(targets))
 
