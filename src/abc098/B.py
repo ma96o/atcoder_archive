@@ -1,0 +1,10 @@
+n = int(input())
+s = input()
+
+ans = 0
+for i in range(1, n):
+    temp = len(set(s[i:]) & set(s[:i]))
+    if temp > ans:
+        ans = temp
+
+print(ans)
