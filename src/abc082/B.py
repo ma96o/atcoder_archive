@@ -1,5 +1,7 @@
 S = sorted(input())
 T = sorted(input(), reverse=True)
+# print("Yes" if S < T else "No")
+
 s_s, t_s = '', ''
 
 for s in S:
