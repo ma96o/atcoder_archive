@@ -10,3 +10,6 @@ for b in blist.keys():
     ans = max(blist[b] - rlist[b], ans)
 
 print(ans)
+
+
+# print(max([s.count(k)-t.count(k) for k in s]+[0]))
