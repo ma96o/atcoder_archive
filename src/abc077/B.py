@@ -3,3 +3,5 @@ for i in range(n+1)[::-1]:
     if pow(i, 0.5).is_integer():
         print(i)
         exit()
+
+# print(int(n**0.5)**2)
