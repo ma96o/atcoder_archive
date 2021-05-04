@@ -14,3 +14,9 @@ for i in range(2, n+1):
     l_1 = l
 
 print(l)
+
+
+l, m = 2, 1
+for i in range(n):
+    l, m = m, l+m
+print(l)
