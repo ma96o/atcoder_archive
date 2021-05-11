@@ -1,5 +1,6 @@
 o = input()
 e = input()
+e = input() + ' '
 
 for i in range(len(o)-1):
     print(o[i]+e[i], end='')
